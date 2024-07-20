@@ -8,6 +8,14 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class TestController extends AbstractController
 {
+    #[Route('/', name: 'app_start')]
+    public function start(): void
+    {
+
+
+        return;
+    }
+
     #[Route('/test', name: 'app_test')]
     public function index(): JsonResponse
     {

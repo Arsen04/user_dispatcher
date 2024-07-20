@@ -1,5 +1,5 @@
-# Use the official PHP image with PHP 8.0
-FROM php:8.0-fpm
+# Use the official PHP image with PHP 8.2
+FROM php:8.2-fpm
 
 # Set working directory
 WORKDIR /var/www/html
